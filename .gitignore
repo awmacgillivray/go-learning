@@ -1,5 +1,2 @@
 # compiled binaries
 dist/
-
-# go package checksums
-go.sum
