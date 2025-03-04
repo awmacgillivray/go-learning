@@ -18,6 +18,14 @@ func main() {
 				four()
 			case "5":
 				five()
+			case "6":
+				six()
+			case "7":
+				seven()
+			case "8":
+				eight()
+			case "9":
+				nine()
 		}
 	}
 }

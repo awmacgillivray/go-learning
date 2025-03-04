@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type Vertex struct {
+type Vertex1 struct {
 	X int
 	Y int
 }
@@ -20,8 +20,8 @@ func four() {
 	*p = *p / 37   // divide j through the pointer
 	fmt.Println(j) // see the new value of j
 
-	fmt.Println(Vertex{1, 2})
-	v := Vertex{1, 2}
+	fmt.Println(Vertex1{1, 2})
+	v := Vertex1{1, 2}
 	v.X = 4
 	fmt.Println(v.X)
 
