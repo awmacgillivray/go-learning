@@ -24,6 +24,12 @@ func main() {
 				eight()
 			case "9":
 				nine()
+			case "10":
+				ten()
+			case "11":
+				eleven()
+			case "12":
+				twelve()
 		}
 	}
 }
